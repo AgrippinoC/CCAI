@@ -1,0 +1,46 @@
+{
+  "builder_name": "imagefolder",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "imagefolder",
+  "dataset_size": 16176,
+  "description": "",
+  "download_size": 9399210,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "label": {
+      "names": [
+        "Adriano",
+        "Augusto",
+        "Aureliano",
+        "Costantino",
+        "Marco Aurelio",
+        "Nerone",
+        "Settimio Severo",
+        "Teodosio",
+        "Traiano",
+        "Vespasiano"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9415386,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 16176,
+      "num_examples": 200,
+      "dataset_name": "imagefolder"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
