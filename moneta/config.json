@@ -1,0 +1,50 @@
+{
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "dtype": "float32",
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Adriano",
+    "1": "Augusto",
+    "2": "Aureliano",
+    "3": "Costantino",
+    "4": "Marco Aurelio",
+    "5": "Nerone",
+    "6": "Settimio Severo",
+    "7": "Teodosio",
+    "8": "Traiano",
+    "9": "Vespasiano"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Adriano": 0,
+    "Augusto": 1,
+    "Aureliano": 2,
+    "Costantino": 3,
+    "Marco Aurelio": 4,
+    "Nerone": 5,
+    "Settimio Severo": 6,
+    "Teodosio": 7,
+    "Traiano": 8,
+    "Vespasiano": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 12,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "pooler_act": "tanh",
+  "pooler_output_size": 768,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "transformers_version": "5.12.1",
+  "use_cache": false
+}
