@@ -1,11 +1,7 @@
 import os, cv2
-# Evito conflitti con thread ed errori (ME NE DAVA ABBASTANZA, HO PROVATO TANTE COSE)
-os.environ["HF_DATASETS_DISABLE_PROGRESS_BARS"] = "1"
-os.environ["HF_DATASETS_DISABLE_MULTIPROCESSING"] = "1"
+àME NE DAVA ABBASTANZA ERRORI, HO PROVATO TANTE COSE MA COSI FUNZIONA NEL MIO PC
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["OMP_NUM_THREADS"] = "1"
-os.environ["MKL_NUM_THREADS"] = "1"
-os.environ["NUMEXPR_NUM_THREADS"] = "1"
+
 
 import torch
 from transformers import ViTForImageClassification, ViTImageProcessor
